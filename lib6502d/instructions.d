@@ -1,6 +1,6 @@
 struct Instruction
 {
-  size_t size = cast(size_t)-1;
+  size_t size = 1;
   size_t address = 0x0000;
 
   EInstruction ins = EInstruction.UNK;
